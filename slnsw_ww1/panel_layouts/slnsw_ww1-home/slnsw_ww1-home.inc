@@ -1,5 +1,4 @@
 <?php
-
 $plugin = array(
   'title' => t('State Library WW1 - Home Layout'),
   'category' => t('State Library WW1'),
