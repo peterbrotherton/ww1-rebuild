@@ -1,0 +1,28 @@
+name = State Library WW1
+description = A custom template for State Library WW1
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/slnsw_ww1.reset.css
+stylesheets[all][] = css/slnsw_ww1.global.css
+stylesheets[all][] = css/slnsw_ww1.common.css
+stylesheets[all][] = css/slnsw_ww1.page.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/slnsw_ww1.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[user_menu] = User Menu
+regions[main_menu] = Main Menu
+regions[content] = Content
+
+; ========================================
+; Enable Panels layouts. Panel layouts go under the "panel_layouts" folder.
+; ========================================
+plugins[panels][layouts] = panel_layouts

@@ -1,0 +1,62 @@
+/* Global element styles and classes, reset additions and changes
+***********************************************************************/
+
+html {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 100%;
+}
+
+body {
+	font-size: 1rem;
+	color: #1e1e1e;
+}
+
+input {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 0.875rem;
+}
+
+.clearing {
+	clear: both;
+}
+
+
+.smallish {
+	display: none;
+}
+
+.mediumish {
+	display: none;
+}
+
+.largish {
+	display: block;
+}
+
+@media all and (max-width: 78em) {
+	.largish {
+		display: none;
+	}
+	
+	.smallish {
+		display: none;
+	}
+	
+	.mediumish {
+		display: block;
+	}
+}
+
+@media all and (max-width: 40em) {
+	.largish {
+		display: none;
+	}
+	
+	.mediumish {
+		display: none;
+	}
+	
+	.smallish {
+		display: block;
+	}
+}
