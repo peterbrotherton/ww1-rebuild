@@ -1,17 +1,17 @@
-/* styles specific to slnsw_ww1-2col layout ************************
+/* styles specific to slnswww1-2col layout ************************
 ****************************************************************/
 
-.panel-slnsw_ww1-2col-header {
+.panel-slnswww1-2col-header {
 	width: 100%;
 	position: relative;
 }
 
-.panel-slnsw_ww1-2col-main-wrapper {
+.panel-slnswww1-2col-main-wrapper {
 	margin: 14px auto 42px auto;
 	max-width: 1200px;
 }
 
-.panel-slnsw_ww1-2col-main {
+.panel-slnswww1-2col-main {
 	float: left;
 	margin-right: 2%;
 	padding: 1%;
@@ -19,44 +19,44 @@
 	background-color: #fff;
 }
 
-.panel-slnsw_ww1-2col-side {
+.panel-slnswww1-2col-side {
 	float: right;
 	width: 26%;
 	padding: 1%;
 	background-color: #fff;
 }
 
-.panel-slnsw_ww1-2col-side .panel-pane {
+.panel-slnswww1-2col-side .panel-pane {
 	margin-bottom: 24px;
 }
 
-.panel-slnsw_ww1-2col-footer {
+.panel-slnswww1-2col-footer {
 	clear: both;
 	width: 100%;
 }
 
 @media all and (max-width: 78em) {
-	.panel-slnsw_ww1-2col-main-wrapper {
+	.panel-slnswww1-2col-main-wrapper {
 		margin-top: 0;
 	}
 	
-	.panel-slnsw_ww1-2col-main {
+	.panel-slnswww1-2col-main {
 		margin: 0 1%;
 	}
 	
-	.panel-slnsw_ww1-2col-side {
+	.panel-slnswww1-2col-side {
 		margin-right: 1%;
 	}
 }
 
 @media all and (max-width: 40em) {
-	.panel-slnsw_ww1-2col-main {
+	.panel-slnswww1-2col-main {
 		float: none;
 		margin: 0 auto;
 		width: 94%;
 	}
 	
-	.panel-slnsw_ww1-2col-side {
+	.panel-slnswww1-2col-side {
 		float: none;
 		margin: 2% auto;
 		width: 94%;

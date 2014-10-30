@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for a slnsw_ww1 2col layout.
+ * Template for a slnswww1 2col layout.
  *
  * Variables:
  * - $id: An optional CSS id to use for the layout.
@@ -13,28 +13,28 @@
  *   - $content['footer']: Content in the footer.
  */
 ?>
-<div class="panel-slnsw_ww1-2col clearfix panel-display" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<div class="panel-slnswww1-2col clearfix panel-display" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
   <?php if ($content['header']): ?>
-    <header class="panel-slnsw_ww1-2col-header">
+    <header class="panel-slnswww1-2col-header">
       <?php print $content['header']; ?>
     </header>
   <?php endif; ?>
   <div class="clearing"></div>
-  <div class="panel-slnsw_ww1-2col-main-wrapper">
+  <div class="panel-slnswww1-2col-main-wrapper">
     <?php if ($content['main']): ?>
-      <section class="panel-slnsw_ww1-2col-main">
+      <section class="panel-slnswww1-2col-main">
         <?php print $content['main']; ?>
       </section>
     <?php endif; ?>
     <?php if ($content['side']): ?>
-      <aside class="panel-slnsw_ww1-2col-side">
+      <aside class="panel-slnswww1-2col-side">
        <?php print $content['side']; ?>
       </aside>
      <?php endif; ?>
      <div class="clearing"></div>
   </div>
   <?php if ($content['footer']): ?>
-    <footer class="panel-slnsw_ww1-2col-footer">
+    <footer class="panel-slnswww1-2col-footer">
      <?php print $content['footer']; ?>
     </footer>
   <?php endif; ?>

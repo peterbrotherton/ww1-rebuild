@@ -5,21 +5,19 @@ core = 7.x
 ; ========================================
 ; Stylesheets
 ; ========================================
-stylesheets[all][] = css/slnsw_ww1.reset.css
-stylesheets[all][] = css/slnsw_ww1.global.css
-stylesheets[all][] = css/slnsw_ww1.common.css
-stylesheets[all][] = css/slnsw_ww1.page.css
+stylesheets[all][] = css/slnswww1.reset.css
+stylesheets[all][] = css/slnswww1.global.css
+stylesheets[all][] = css/slnswww1.common.css
+stylesheets[all][] = css/slnswww1.page.css
 
 ; ========================================
 ; Scripts
 ; ========================================
-scripts[] = js/slnsw_ww1.behaviors.js
+scripts[] = js/slnswww1.behaviors.js
 
 ; ========================================
 ; Regions
 ; ========================================
-regions[user_menu] = User Menu
-regions[main_menu] = Main Menu
 regions[content] = Content
 
 ; ========================================

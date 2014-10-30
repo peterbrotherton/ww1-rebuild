@@ -2,9 +2,9 @@
 $plugin = array(
   'title' => t('State Library WW1 - Home Layout'),
   'category' => t('State Library WW1'),
-  'icon' => 'slnsw_ww1-home.png',
-  'theme' => 'slnsw_ww1-home',
-  'css' => 'slnsw_ww1-home.css',
+  'icon' => 'slnswww1-home.png',
+  'theme' => 'slnswww1-home',
+  'css' => 'slnswww1-home.css',
   'regions' => array(
     'header' => t('Header'),
     'top-col-one'=> t('Top Col One'),

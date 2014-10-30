@@ -1,60 +1,60 @@
-/* styles specific to slnsw_ww1-home layout ************************
+/* styles specific to slnswww1-home layout ************************
 ****************************************************************/
 
-.panel-slnsw_ww1-home-header {
+.panel-slnswww1-home-header {
 	width: 100%;
 	position: relative;
 }
 
-.panel-slnsw_ww1-top-art {
+.panel-slnswww1-top-art {
 	padding: 30px 0 34px 0;
 	background: url(../../images/art-nations.png) left top no-repeat;
 	background-size: cover;
 }
 
-.panel-slnsw_ww1-top-wrapper {
+.panel-slnswww1-top-wrapper {
 	margin: 0 auto;
 	max-width: 1200px;
 }
 
-.panel-slnsw_ww1-home-top-col-one {
+.panel-slnswww1-home-top-col-one {
 	float: left;
 	width: 26%;
 }
 
-.panel-slnsw_ww1-home-top-col-two {
+.panel-slnswww1-home-top-col-two {
 	float: left;
 	margin: 0 3%;
 	width: 43%;
 }
 
-.panel-slnsw_ww1-home-top-col-three {
+.panel-slnswww1-home-top-col-three {
 	float: left;
 	width: 25%;
 }
 
-.panel-slnsw_ww1-home-main {
+.panel-slnswww1-home-main {
 	clear: both;
 	margin: 30px auto;
 	max-width: 1200px;
 }
 
-.panel-slnsw_ww1-home-footer {
+.panel-slnswww1-home-footer {
 	width: 100%;
 }
 
 @media all and (max-width: 78em) {
-	.panel-slnsw_ww1-home-top-col-one {
+	.panel-slnswww1-home-top-col-one {
 		display: none;
 	}
 	
-	.panel-slnsw_ww1-home-top-col-two {
+	.panel-slnswww1-home-top-col-two {
 		float: left;
 		margin: 0 4%;
 		width: 60%;
 	}
 
-	.panel-slnsw_ww1-home-top-col-three {
+	.panel-slnswww1-home-top-col-three {
 		float: left;
 		margin: 0 3 0 0;
 		width: 29%;
@@ -62,15 +62,15 @@
 }
 
 @media all and (max-width: 40em) {
-	.panel-slnsw_ww1-top-art {
+	.panel-slnswww1-top-art {
 		padding: 10px 0;
 	}
 	
-	.panel-slnsw_ww1-home-top-col-two {
+	.panel-slnswww1-home-top-col-two {
 		display: none;
 	}
 
-	.panel-slnsw_ww1-home-top-col-three {
+	.panel-slnswww1-home-top-col-three {
 		float: none;
 		margin: 0 auto;
 		width: 96%;

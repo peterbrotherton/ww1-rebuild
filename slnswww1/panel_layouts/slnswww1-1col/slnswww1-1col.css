@@ -1,35 +1,35 @@
-/* styles specific to slnsw_ww1-1col layout ************************
+/* styles specific to slnswww1-1col layout ************************
 ****************************************************************/
 
-.panel-slnsw_ww1-1col-header {
+.panel-slnswww1-1col-header {
 	width: 100%;
 	position: relative;
 }
 
-.panel-slnsw_ww1-1col-main-wrapper {
+.panel-slnswww1-1col-main-wrapper {
 	margin: 14px auto 42px auto;
 	max-width: 1200px;
 }
 
-.panel-slnsw_ww1-1col-main {
+.panel-slnswww1-1col-main {
 	padding: 1%;
 	width: 98%;
 	background-color: #fff;
 }
 
-.panel-slnsw_ww1-1col-footer {
+.panel-slnswww1-1col-footer {
 	clear: both;
 	width: 100%;
 }
 
 @media all and (max-width: 78em) {
-	.panel-slnsw_ww1-1col-main-wrapper {
+	.panel-slnswww1-1col-main-wrapper {
 		margin-top: 0;
 	}
 }
 
 @media all and (max-width: 40em) {
-	.panel-slnsw_ww1-1col-main {
+	.panel-slnswww1-1col-main {
 		margin: 0 auto;
 		width: 94%;
 	}

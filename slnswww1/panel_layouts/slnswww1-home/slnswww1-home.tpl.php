@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for slnsw_ww1 home layout.
+ * Template for slnswww1 home layout.
  *
  * Variables:
  * - $id: An optional CSS id to use for the layout.
@@ -15,27 +15,27 @@
  *   - $content['footer']: Content in the footer.
  */
 ?>
-<div class="panel-slnsw_ww1-home clearfix panel-display" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<div class="panel-slnswww1-home clearfix panel-display" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
   <?php if ($content['header']): ?>
-    <header class="panel-slnsw_ww1-home-header">
+    <header class="panel-slnswww1-home-header">
       <?php print $content['header']; ?>
     </header>
   <?php endif; ?>
   <div class="clearing"></div>
-  <div class="panel-slnsw_ww1-top-art">
-    <div class="panel-slnsw_ww1-top-wrapper">
+  <div class="panel-slnswww1-top-art">
+    <div class="panel-slnswww1-top-wrapper">
       <?php if ($content['top-col-one']): ?>
-        <div class="panel-slnsw_ww1-home-top-col-one">
+        <div class="panel-slnswww1-home-top-col-one">
           <?php print $content['top-col-one']; ?>
         </div>
       <?php endif; ?>
       <?php if ($content['top-col-two']): ?>
-        <div class="panel-slnsw_ww1-home-top-col-two">
+        <div class="panel-slnswww1-home-top-col-two">
           <?php print $content['top-col-two']; ?>
         </div>
       <?php endif; ?>
       <?php if ($content['top-col-three']): ?>
-        <div class="panel-slnsw_ww1-home-top-col-three">
+        <div class="panel-slnswww1-home-top-col-three">
           <?php print $content['top-col-three']; ?>
         </div>
       <?php endif; ?>
@@ -43,13 +43,13 @@
      </div>
    </div>
   <?php if ($content['main']): ?>
-    <section class="panel-slnsw_ww1-home-main">
+    <section class="panel-slnswww1-home-main">
       <?php print $content['main']; ?>
     </section>
   <?php endif; ?>
    <div class="clearing"></div>
   <?php if ($content['footer']): ?>
-    <footer class="panel-slnsw_ww1-home-footer">
+    <footer class="panel-slnswww1-home-footer">
      <?php print $content['footer']; ?>
     </footer>
   <?php endif; ?>
