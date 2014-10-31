@@ -6,28 +6,46 @@
 	position: relative;
 }
 
+.panel-slnswww1-2col-title-strip {
+	background-color: #1e1e1e;
+}
+
+.panel-slnswww1-2col-title-strip h1 {
+	padding: 1rem 0;
+	margin: 0 auto;
+	max-width: 1120px;
+	font-family: Georgia,Times,Times New Roman,serif;
+	font-size: 1.5rem;
+	font-style: italic;
+	color: #fff;
+	line-height: 2rem;
+}
+
 .panel-slnswww1-2col-main-wrapper {
-	margin: 14px auto 42px auto;
-	max-width: 1200px;
+	margin: 1.75rem auto;
+	max-width: 1120px;
 }
 
 .panel-slnswww1-2col-main {
 	float: left;
 	margin-right: 2%;
-	padding: 1%;
-	width: 67%;
+	width: 70%;
 	background-color: #fff;
 }
 
 .panel-slnswww1-2col-side {
 	float: right;
-	width: 26%;
-	padding: 1%;
+	width: 28%;
 	background-color: #fff;
 }
 
 .panel-slnswww1-2col-side .panel-pane {
-	margin-bottom: 24px;
+	margin-bottom: 1.5rem;
+}
+
+.panel-slnswww1-2col-contact-strip {
+	clear: both;
+	width: 100%;
 }
 
 .panel-slnswww1-2col-footer {
@@ -36,11 +54,16 @@
 }
 
 @media all and (max-width: 78em) {
+	.panel-slnswww1-2col-title-strip h1 {
+		margin: 0 1%;
+	}
+	
 	.panel-slnswww1-2col-main-wrapper {
 		margin-top: 0;
 	}
 	
 	.panel-slnswww1-2col-main {
+		width: 69%;
 		margin: 0 1%;
 	}
 	
@@ -50,6 +73,11 @@
 }
 
 @media all and (max-width: 40em) {
+	.panel-slnswww1-2col-title-strip h1 {
+		margin: 0 auto;
+		width: 94%;
+	}
+	
 	.panel-slnswww1-2col-main {
 		float: none;
 		margin: 0 auto;
@@ -58,7 +86,7 @@
 	
 	.panel-slnswww1-2col-side {
 		float: none;
-		margin: 2% auto;
+		margin: 1.5rem auto;
 		width: 94%;
 	}
 }

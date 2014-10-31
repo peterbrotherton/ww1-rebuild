@@ -1,5 +1,45 @@
 /* Styles for markup used on all pages *******************************
 ***********************************************************************/
+#page-wrapper > header {
+	height: 13.75rem;
+	background: url(../images/banner-park.jpg) left top no-repeat;
+	background-size: cover;
+}
+
+#page-wrapper > header .logo-slnsw {
+	float: right;
+}
+
+#page-wrapper > header .primary-links {
+	display: none;
+}
+
+#page-wrapper > header h1 {
+	display: inline-block;
+	padding: 0 1rem;
+	font-family: Georgia,Times,Times New Roman,serif;
+	font-size: 1.5rem;
+	color: #000;
+	background-color: #fff;
+	line-height: 3.5rem;
+}
+
+.staff-pick {
+	width: 48%;
+	padding: 1%;
+	background-color: #f9f9f9;
+}
+
+.staff-pick  h1 {
+	font-family: Georgia,Times,Times New Roman,serif;
+	font-size: 1.5rem;
+	color: #1e1e1e;
+	font-style: italic;
+}
+
+#page-wrapper > footer {
+	background-color: #e3e3e3;
+}
 
 
 /* Styles for markup used on some pages *******************************

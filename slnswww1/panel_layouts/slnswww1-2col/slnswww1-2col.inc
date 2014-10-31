@@ -8,8 +8,10 @@ $plugin = array(
   'css' => 'slnswww1-2col.css',
   'regions' => array(
     'header' => t('Header'),
+    'title-strip' => t('Title Strip'),
     'main' => t('Main'),
     'side' => t('Side'),
+    'contact-strip' => t('Contact Strip'),
     'footer' => t('Footer')
   ),
 );

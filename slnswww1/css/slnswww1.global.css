@@ -20,7 +20,6 @@ input {
 	clear: both;
 }
 
-
 .smallish {
 	display: none;
 }
@@ -31,6 +30,18 @@ input {
 
 .largish {
 	display: block;
+}
+
+.button {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: .875rem;
+	color: #fff;
+	background-color: #0059be;
+}
+
+.inner-wrapper {
+	margin: 0 auto;
+	max-width: 1120px;
 }
 
 @media all and (max-width: 78em) {
