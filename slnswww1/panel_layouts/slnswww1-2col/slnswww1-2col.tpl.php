@@ -16,38 +16,43 @@
  */
 ?>
 <div class="panel-slnswww1-2col clearfix panel-display" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
-  <?php if ($content['header']): ?>
-    <header class="panel-slnswww1-2col-header">
-      <?php print $content['header']; ?>
-    </header>
-  <?php endif; ?>
-  <div class="clearing"></div>
-  <?php if ($content['title-strip']): ?>
-  <section class="panel-slnswww1-2col-title-strip">
-    <?php print $content['title-strip']; ?>
-  </section>
-   <?php endif; ?>
-  <div class="panel-slnswww1-2col-main-wrapper">
-    <?php if ($content['main']): ?>
-      <section class="panel-slnswww1-2col-main">
-        <?php print $content['main']; ?>
-      </section>
+  <div id="page-canvas">
+    <?php if ($content['page-menu']): ?>
+    <?php print $content['page-menu']; ?> 
     <?php endif; ?>
-    <?php if ($content['side']): ?>
-      <aside class="panel-slnswww1-2col-side">
-       <?php print $content['side']; ?>
-      </aside>
+    <?php if ($content['header']): ?>
+      <header class="panel-slnswww1-2col-header">
+        <?php print $content['header']; ?>
+      </header>
+    <?php endif; ?>
+    <div class="clearing"></div>
+    <?php if ($content['title-strip']): ?>
+    <section class="panel-slnswww1-2col-title-strip">
+      <?php print $content['title-strip']; ?>
+    </section>
      <?php endif; ?>
-     <div class="clearing"></div>
-  </div>
-  <?php if ($content['contact-strip']): ?>
-    <div class="panel-slnswww1-2col-contact-strip">
-     <?php print $content['contact-strip']; ?>
+    <div class="panel-slnswww1-2col-main-wrapper">
+      <?php if ($content['main']): ?>
+        <section class="panel-slnswww1-2col-main">
+          <?php print $content['main']; ?>
+        </section>
+      <?php endif; ?>
+      <?php if ($content['side']): ?>
+        <aside class="panel-slnswww1-2col-side">
+         <?php print $content['side']; ?>
+        </aside>
+       <?php endif; ?>
+       <div class="clearing"></div>
     </div>
-  <?php endif; ?>
-  <?php if ($content['footer']): ?>
-    <footer class="panel-slnswww1-2col-footer">
-     <?php print $content['footer']; ?>
-    </footer>
-  <?php endif; ?>
+    <?php if ($content['contact-strip']): ?>
+      <div class="panel-slnswww1-2col-contact-strip">
+       <?php print $content['contact-strip']; ?>
+      </div>
+    <?php endif; ?>
+    <?php if ($content['footer']): ?>
+      <footer class="panel-slnswww1-2col-footer">
+       <?php print $content['footer']; ?>
+      </footer>
+    <?php endif; ?>
+  </div>
 </div>

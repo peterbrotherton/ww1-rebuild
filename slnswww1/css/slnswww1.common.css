@@ -1,34 +1,208 @@
 /* Styles for markup used on all pages *******************************
 ***********************************************************************/
-#page-wrapper > header {
+#page-wrapper {
+	position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+#page-wrapper.show-nav #page-canvas {
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+}
+
+#page-canvas {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+}
+
+#page-wrapper #page-canvas > nav.main-menu {
+	position: absolute;
+    top: 0;
+    left: -300px;
+	width: 300px;
+    height: 100%;
+	background-color: #3b3b3b;
+	color: #fff;
+}
+
+#page-wrapper #page-canvas > nav.main-menu .account-links {
+	padding: 4%;
+	color: #fff;
+	font-size: .75rem;
+}
+
+#page-wrapper #page-canvas > nav.main-menu .account-links a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#page-wrapper #page-canvas > nav.main-menu form {
+	border-bottom: 1px solid #6d6d6d;
+	padding: 0 4% 6% 4%;
+}
+
+#page-wrapper #page-canvas > nav.main-menu input[type="text"] {
+	width: 70%;
+	font-style: italic;
+}
+
+#page-wrapper #page-canvas > nav.main-menu input[type="text"]::-webkit-input-placeholder {
+	font-style: italic;
+}
+
+#page-wrapper #page-canvas > nav.main-menu input[type="text"]:-moz-placeholder {
+	font-style: italic;
+}
+
+#page-wrapper #page-canvas > nav.main-menu input[type="text"]::-moz-placeholder {
+	font-style: italic;
+}
+
+#page-wrapper #page-canvas > nav.main-menu input[type="text"]:-ms-input-placeholder {  
+	font-style: italic;
+}
+
+#page-wrapper #page-canvas > nav.main-menu input[type="image"] {
+	margin-left: 4%;
+	vertical-align: middle;
+}
+
+#page-wrapper #page-canvas > nav.main-menu ul li {
+	border-bottom: 1px solid #6d6d6d;
+	margin: 0;
+	padding: 0;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: .875rem;
+	line-height: 3rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#page-wrapper #page-canvas > nav.main-menu ul li a {
+	display: inline-block;
+	margin-left: 4%;
+	width: 80%;
+	color: #fff;
+	text-decoration: none;
+}
+
+#page-wrapper #page-canvas > nav.main-menu ul  li img {
+	margin: 0 5%;
+	width: 6%;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+#page-wrapper #page-canvas > nav.main-menu ul li ul {
+	overflow: hidden;
+	max-height: 0;
+	background-color: #5f5f5f;
+	-webkit-transition: .3s ease all;
+    transition: .3s ease all;
+}
+
+#page-wrapper #page-canvas > nav.main-menu ul li ul.active {
+	max-height: 25rem;
+}
+
+#page-wrapper #page-canvas > nav.main-menu ul li ul li a {
+	display: inline-block;
+	margin: 0;
+	padding: 0 4% 0 12%;
+	width: 84%;
+	color: #fff;
+	text-decoration: none;
+}
+
+#page-wrapper #page-canvas > nav.main-menu ul li ul li a:hover {
+	background-color: #00cc99;
+}
+
+#page-wrapper #page-canvas > nav .social {
+	padding: 4%;
+}
+
+#page-wrapper #page-canvas > nav .social img {
+	margin-right: .3rem;
+}
+
+#page-wrapper #page-canvas > header {
 	height: 13.75rem;
 	background: url(../images/banner-park.jpg) left top no-repeat;
 	background-size: cover;
 }
 
-#page-wrapper > header .logo-slnsw {
+#page-wrapper #page-canvas  #main-menu-trigger {
+	float: left;
+	padding: 0 1rem;
+	background-color: #000;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	color: #fff;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: .875rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#page-wrapper #page-canvas  #main-menu-trigger img {
+	padding-right: .7rem;
+	vertical-align: middle;
+}
+
+#page-wrapper #page-canvas > header .logo-slnsw {
 	float: right;
+	width: 7.25rem;
 }
 
-#page-wrapper > header .primary-links {
-	display: none;
+#page-wrapper #page-canvas > header .account-links {
+	float: right;
+	margin: .7rem 1rem;
+	padding: 0 .5rem;
+	background-color: #f9f9f9;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 2rem;
 }
 
-#page-wrapper > header h1 {
-	display: inline-block;
+#page-wrapper #page-canvas > header .account-links a {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	color: #1e1e1e;
+	font-size: .875rem;
+	text-decoration: none;
+}
+
+#page-wrapper #page-canvas > header .account-links img {
+	padding-right: .5rem;
+	vertical-align: middle;
+}
+
+#page-wrapper #page-canvas > header h1 {
+	float: left;
 	padding: 0 1rem;
 	font-family: Georgia,Times,Times New Roman,serif;
 	font-size: 1.5rem;
 	color: #000;
 	background-color: #fff;
+	height: 3.5rem;
 	line-height: 3.5rem;
 }
 
 .staff-pick {
 	width: 48%;
 	padding: 1%;
-	background-color: #f9f9f9;
 }
+
+.staff-pick  .col1, .staff-pick  .col2 {
+	float: left;
+} 
 
 .staff-pick  h1 {
 	font-family: Georgia,Times,Times New Roman,serif;
@@ -37,8 +211,44 @@
 	font-style: italic;
 }
 
+.staff-pick img {
+	margin-top: 0.875rem;
+}
+
 #page-wrapper > footer {
 	background-color: #e3e3e3;
+}
+
+@media all and (max-width: 40em) {
+	#page-wrapper #page-canvas > header {
+		height: 6.5rem;
+	}
+
+	#page-wrapper #page-canvas  #main-menu-trigger {
+		padding: 0 .5rem;
+		width: 7rem;
+		height: 2.25rem;
+		line-height: 2.25rem;
+		text-align: center;
+	}
+	
+	#page-wrapper #page-canvas > header .logo-slnsw {
+		width: 5.5rem;
+	}
+	
+	#page-wrapper #page-canvas > header .account-links {
+		display: none;
+	}
+	
+	#page-wrapper #page-canvas > header h1 {
+		clear: left;
+		padding: 0 .5rem;
+		font-size: .875rem;
+		width: 7rem;
+		height: 2.25rem;
+		line-height: 2.25rem;
+		text-align: center;
+	}
 }
 
 

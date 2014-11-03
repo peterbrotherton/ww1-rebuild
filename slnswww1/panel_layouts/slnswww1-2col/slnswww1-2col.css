@@ -11,14 +11,13 @@
 }
 
 .panel-slnswww1-2col-title-strip h1 {
-	padding: 1rem 0;
 	margin: 0 auto;
 	max-width: 1120px;
 	font-family: Georgia,Times,Times New Roman,serif;
 	font-size: 1.5rem;
 	font-style: italic;
 	color: #fff;
-	line-height: 2rem;
+	line-height: 3.625rem;
 }
 
 .panel-slnswww1-2col-main-wrapper {
@@ -46,6 +45,7 @@
 .panel-slnswww1-2col-contact-strip {
 	clear: both;
 	width: 100%;
+	background-color: #f9f9f9;
 }
 
 .panel-slnswww1-2col-footer {
@@ -76,6 +76,8 @@
 	.panel-slnswww1-2col-title-strip h1 {
 		margin: 0 auto;
 		width: 94%;
+		font-size: .875rem;
+		line-height: 2.75rem;
 	}
 	
 	.panel-slnswww1-2col-main {

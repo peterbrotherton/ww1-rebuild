@@ -7,6 +7,7 @@ $plugin = array(
   'theme' => 'slnswww1-2col',
   'css' => 'slnswww1-2col.css',
   'regions' => array(
+    'page-menu' => t('Page Menu'),
     'header' => t('Header'),
     'title-strip' => t('Title Strip'),
     'main' => t('Main'),

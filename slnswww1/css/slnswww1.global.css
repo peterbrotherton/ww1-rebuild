@@ -9,11 +9,56 @@ html {
 body {
 	font-size: 1rem;
 	color: #1e1e1e;
+	overflow-x: hidden;
 }
 
 input {
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 0.875rem;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: .75rem;
+}
+
+select {
+	box-sizing: content-box;
+	border: 0;
+	padding: 0;
+}
+
+input[type="submit"] {
+	box-sizing: content-box;
+	cursor: pointer;
+}
+
+input[type="text"] {
+	border: 0;
+	padding: 0;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #6d6d6d;
+	color: #fff;
+	text-indent: 1rem;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+   color: #fff;
+   opacity: 1;
+}
+
+input[type="text"]:-moz-placeholder {
+   color: #fff;
+   opacity: 1;
+}
+
+input[type="text"]::-moz-placeholder {
+   color: #fff;
+   opacity: 1;
+}
+
+input[type="text"]:-ms-input-placeholder {  
+  color: #fff;
+  opacity: 1;
 }
 
 .clearing {
