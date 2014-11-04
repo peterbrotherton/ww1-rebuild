@@ -12,7 +12,8 @@ $plugin = array(
     'title-strip' => t('Title Strip'),
     'main' => t('Main'),
     'side' => t('Side'),
-    'contact-strip' => t('Contact Strip'),
+    'contact-strip-col-1' => t('Contact Strip Col 1'),
+    'contact-strip-col-2' => t('Contact Strip Col 2'),
     'footer' => t('Footer')
   ),
 );

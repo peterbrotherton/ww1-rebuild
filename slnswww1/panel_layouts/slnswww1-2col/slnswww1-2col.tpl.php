@@ -11,7 +11,8 @@
  *   - $content['title-strip']: Content in the title-strip.
  *   - $content['main']: Content in the main column.
  *   - $content['side']: Content in the side column.
- *   - $content['contact-strip']: Content in the contact-strip.
+ *   - $content['contact-strip-col-1']: Content in the contact-strip-col-1.
+ *   - $content['contact-strip-col-2']: Content in the contact-strip-col-1.
  *   - $content['footer']: Content in the footer.
  */
 ?>
@@ -44,11 +45,19 @@
        <?php endif; ?>
        <div class="clearing"></div>
     </div>
-    <?php if ($content['contact-strip']): ?>
-      <div class="panel-slnswww1-2col-contact-strip">
-       <?php print $content['contact-strip']; ?>
-      </div>
-    <?php endif; ?>
+    <div class="panel-slnswww1-2col-contact-strip">
+      <?php if ($content['contact-strip-col-1']): ?>
+        <div class="panel-slnswww1-2col-contact-strip-col-1">
+         <?php print $content['contact-strip-col-1']; ?>
+        </div>
+      <?php endif; ?>
+       <?php if ($content['contact-strip-col-2']): ?>
+        <div class="panel-slnswww1-2col-contact-strip-col-2">
+         <?php print $content['contact-strip-col-2']; ?>
+        </div>
+      <?php endif; ?>
+      <div class="clearing"></div>
+     </div>
     <?php if ($content['footer']): ?>
       <footer class="panel-slnswww1-2col-footer">
        <?php print $content['footer']; ?>

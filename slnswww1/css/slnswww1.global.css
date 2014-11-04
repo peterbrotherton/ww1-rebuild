@@ -12,6 +12,10 @@ body {
 	overflow-x: hidden;
 }
 
+strong {
+	font-weight: bold;
+}
+
 input {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: .75rem;

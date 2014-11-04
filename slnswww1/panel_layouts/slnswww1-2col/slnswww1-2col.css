@@ -44,8 +44,20 @@
 
 .panel-slnswww1-2col-contact-strip {
 	clear: both;
-	width: 100%;
+	padding: 1%;
+	width: 98%;
 	background-color: #f9f9f9;
+}
+
+.panel-slnswww1-2col-contact-strip-col-1 {
+	float: left;
+	width: 48%;
+}
+
+.panel-slnswww1-2col-contact-strip-col-2 {
+	float: right;
+	width: 40%;
+	max-width: 28rem;
 }
 
 .panel-slnswww1-2col-footer {
@@ -90,5 +102,24 @@
 		float: none;
 		margin: 1.5rem auto;
 		width: 94%;
+	}
+	
+	.panel-slnswww1-2col-contact-strip {
+		padding: 0;
+		width: 100%;
+	}
+
+	.panel-slnswww1-2col-contact-strip-col-1 {
+		float: none;
+		margin: 0 auto;
+		border-bottom: 1px solid #d8d8d8;
+		width: 94%;
+	}
+
+	.panel-slnswww1-2col-contact-strip-col-2 {
+		float: none;
+		margin: 0 auto;
+		width: 94%;
+		max-width: 94%;
 	}
 }

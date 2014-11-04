@@ -50,6 +50,14 @@
 				event.preventDefault();
 				event.stopPropagation();
 			});
+			
+			// search bar
+			$('#search input[type="text"]').click(function(event){
+				$(this).attr('placeholder', '');
+			});
+			
+			// breadcrumb
+			$('.easy-breadcrumb').append('<span class="easy-breadcrumb_segment-separator"></span>');
 		}
 		
 		initCommon();
