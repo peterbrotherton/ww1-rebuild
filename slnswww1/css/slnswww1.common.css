@@ -203,6 +203,11 @@
 	line-height: 3.5rem;
 }
 
+#page-wrapper #page-canvas > header h1 a {
+	color: #000;
+	text-decoration: none;
+}
+
 .easy-breadcrumb {
 	clear: both;
 	margin: 0 auto;

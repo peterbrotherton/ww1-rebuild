@@ -1,1 +1,1 @@
-<h1><?php print render($content); ?></h1>
+<h1><a href="/"><?php print render($content); ?></a></h1>
