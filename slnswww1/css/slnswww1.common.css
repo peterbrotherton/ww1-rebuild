@@ -197,15 +197,33 @@
 	padding: 0 1rem;
 	font-family: Georgia,Times,Times New Roman,serif;
 	font-size: 1.5rem;
-	color: #000;
 	background-color: #fff;
-	height: 3.5rem;
-	line-height: 3.5rem;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
 }
 
 #page-wrapper #page-canvas > header h1 a {
+	display: block;
+	height: 3.5rem;
+	line-height: 3.5rem;
 	color: #000;
 	text-decoration: none;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+#page-wrapper #page-canvas > header h1:hover {
+	background-color: #00cc99;
+}
+
+#page-wrapper #page-canvas > header h1:hover a {
+	color: #fff;
 }
 
 .easy-breadcrumb {
@@ -433,9 +451,12 @@
 		padding: 0 .5rem;
 		font-size: .875rem;
 		width: 7rem;
+		text-align: center;
+	}
+	
+	#page-wrapper #page-canvas > header h1 a {
 		height: 2.25rem;
 		line-height: 2.25rem;
-		text-align: center;
 	}
 	
 	.easy-breadcrumb  {

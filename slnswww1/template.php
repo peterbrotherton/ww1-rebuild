@@ -36,3 +36,18 @@ function slnswww1_menu_link__main_menu(array $variables) {
     return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . "</li>\n";
   }
 }
+
+// clean up body field output
+function slnswww1_field__body($variables) {
+  $output = '';
+
+  // Render the items.
+  foreach ($variables['items'] as $delta => $item) {
+    $output .= drupal_render($item);
+  }
+
+  // Render the top-level DIV.
+  $output = '<div class="' . $variables['classes'] . '"' . $variables['attributes'] . '>' . $output . '</div>';
+
+  return $output;
+}
