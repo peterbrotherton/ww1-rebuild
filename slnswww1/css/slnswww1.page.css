@@ -1,5 +1,17 @@
 /* Page specific styles
 ***********************************************************************/
+body.front #page-wrapper #page-canvas > header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: auto;
+	background: none;
+}
+
+body.front #page-wrapper #page-canvas > video {
+	width: 100%;
+	height: auto;
+}
 
 body.node-type-page .field-name-body {
 	font-size: .875rem;

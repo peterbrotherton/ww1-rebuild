@@ -6,11 +6,12 @@ $plugin = array(
   'theme' => 'slnswww1-home',
   'css' => 'slnswww1-home.css',
   'regions' => array(
+    'page-menu' => t('Page Menu'),
+    'feature-video' => t('Feature Video'),
     'header' => t('Header'),
-    'top-col-one'=> t('Top Col One'),
-    'top-col-two'=> t('Top Col Two'),
-    'top-col-three'=> t('Top Col Three'),
     'main' => t('Main'),
+    'contact-strip-col-1' => t('Contact Strip Col 1'),
+    'contact-strip-col-2' => t('Contact Strip Col 2'),
     'footer' => t('Footer')
   ),
 );

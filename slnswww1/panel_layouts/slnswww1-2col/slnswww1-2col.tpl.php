@@ -1,18 +1,19 @@
 <?php
 /**
  * @file
- * Template for a slnswww1 2col layout.
+ * Template for slnswww1 2col layout.
  *
  * Variables:
  * - $id: An optional CSS id to use for the layout.
  * - $content: An array of content, each item in the array is keyed to one
  *   panel of the layout. This layout supports the following sections:
+ *   - $content['page-menu']: Content in the page-menu.
  *   - $content['header']: Content in the header.
  *   - $content['title-strip']: Content in the title-strip.
  *   - $content['main']: Content in the main column.
  *   - $content['side']: Content in the side column.
  *   - $content['contact-strip-col-1']: Content in the contact-strip-col-1.
- *   - $content['contact-strip-col-2']: Content in the contact-strip-col-1.
+ *   - $content['contact-strip-col-2']: Content in the contact-strip-col-2.
  *   - $content['footer']: Content in the footer.
  */
 ?>
