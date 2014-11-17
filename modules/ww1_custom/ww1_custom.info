@@ -1,0 +1,4 @@
+name = ww1 Site Customisations
+description = Implements various hooks specifically for the ww1 website
+core = 7.x
+package = SLNSW

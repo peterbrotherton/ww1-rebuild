@@ -1,0 +1,17 @@
+<?php
+/** 
+* @file
+* Implements various hooks specifically for the ww1 website
+*/
+
+function ww1_custom_help($path, $arg) {
+	switch ($path) {
+		case "admin/help#ww1_custom":
+			$output = '';
+			$output .= '<h3>' . t('About') . '</h3>';
+			$output .= '<p>' . t("Implements various hooks specifically for the ww1 website") . '</p>';
+			return $output;
+			break;
+	}
+}
+

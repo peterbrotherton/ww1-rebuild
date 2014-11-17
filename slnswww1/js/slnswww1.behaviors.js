@@ -60,6 +60,28 @@
 			$('.easy-breadcrumb').append('<span class="easy-breadcrumb_segment-separator"></span>');
 		}
 		
+		function initHomePage() {
+			if ($('body.front').length) {
+				$('.video-controls a').click(function(event){
+					if ($("#feature-video")[0].paused) {
+						$("#feature-video")[0].play();
+						$(this).text('Pause background');
+						$(this).css('background', 'url(/sites/all/themes/slnswww1/images/icon-pause.png) left center no-repeat');
+						$(this).css('background-size', '3.1215rem 2.1875rem');
+						$(this).removeClass('play');
+					} else {
+						$("#feature-video")[0].pause();
+						$(this).text('Play background');
+						$(this).css('background', 'url(sites/all/themes/slnswww1/images/icon-play.png) left center no-repeat');
+						$(this).css('background-size', '3.1215rem 2.1875rem');
+						$(this).addClass('play');
+					}
+					event.preventDefault();
+				});
+			}
+		}
+		
 		initCommon();
+		initHomePage();
 	});
 })(jQuery);

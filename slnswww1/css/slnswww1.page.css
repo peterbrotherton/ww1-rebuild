@@ -1,6 +1,6 @@
 /* Page specific styles
 ***********************************************************************/
-body.front #page-wrapper #page-canvas > header {
+body.front #page-wrapper #page-canvas header {
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -8,9 +8,303 @@ body.front #page-wrapper #page-canvas > header {
 	background: none;
 }
 
-body.front #page-wrapper #page-canvas > video {
+body.front #page-wrapper #page-canvas #feature-video-wrapper {
+	position: relative;
+	background-color: #000;
+}
+
+body.front #page-wrapper #page-canvas #feature-video-wrapper video {
 	width: 100%;
 	height: auto;
+	opacity: 0.5;
+}
+
+body.front #page-wrapper #page-canvas   #feature-video-wrapper .scroll-to-explore {
+	position: absolute;
+	left: 45%;
+	bottom: 4%;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.125rem;
+}
+
+body.front #page-wrapper #page-canvas   #feature-video-wrapper .scroll-to-explore img {
+	display: block;
+	margin: 1rem auto;
+}
+
+body.front .dark {
+	padding-top: 1.75rem;
+	background-color: #1e1e1e;
+	color: #fff;
+}
+
+body.front .themes-blurb {
+	border-top: .5rem solid #0059be;
+}
+
+body.front .pane-theme-list-home {
+	border-bottom: .5rem solid #e50046;
+}
+	
+body.front #page-wrapper #page-canvas header .intro-blurb {
+	float: left;
+	clear: left;
+	margin: 2.875rem 0 0 1rem;
+	width: 31%;
+}
+
+body.front #page-wrapper #page-canvas header .intro-blurb p {
+	margin-top: 1rem;
+	color: #fff;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1.125rem;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+	line-height: 1.5rem;
+}
+
+body.front #page-wrapper #page-canvas header .intro-blurb a.view-collection {
+	display: inline-block;
+	margin-top: 1.8rem;
+	padding: 0 1.5rem;
+	height: 3.375rem;
+	line-height: 3.375rem;
+	color: #fff;
+	background-color: #e50046;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-weight: bold;
+	font-size: 1.125rem;
+	text-decoration: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+body.front #page-wrapper #page-canvas header .intro-blurb a.view-collection:hover {
+	background-color: #00cc99;
+}
+
+body.front #page-wrapper #page-canvas header .video-controls {
+	margin: 1.6rem 0 0 1rem;
+	float: left;
+	clear: left;
+}
+
+body.front #page-wrapper #page-canvas header .video-controls a {
+	display: inline-block;
+	padding-left: 4rem;
+	height: 2.1875rem;
+	line-height: 2.1875rem;
+	font-size: .875rem;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	background: url(../images/icon-pause.png) left center no-repeat;
+	background-size: 3.1215rem 2.1875rem;
+}
+
+body.front #page-wrapper #page-canvas header .video-controls a:hover {
+	background: url(../images/icon-pause-on.png) left center no-repeat !important;
+	background-size: 3.1215rem 2.1875rem !important;
+}
+
+body.front #page-wrapper #page-canvas header .video-controls a.play:hover {
+	background: url(../images/icon-play-on.png) left center no-repeat !important;
+	background-size: 3.1215rem 2.1875rem !important;
+}
+
+body.front #diarists-letter-writers {
+	color: #1e1e1e;
+}
+
+body.front .view-diary-highlight-home {
+	border: 1px solid #d8d8d8;
+}
+
+body.front .view-diary-highlight-home .views-field-field-asset-image img {
+	float: right;
+    height: auto !important;
+    max-width: 70% !important;
+    padding: 0 0 0 1.4rem;
+}
+
+body.front .view-diary-highlight-home .views-field-title {
+	padding: .5rem;
+}
+
+body.front  .view-diary-highlight-home .views-field-title a {
+    color: #1e1e1e;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+	line-height: 1.3;
+}
+
+body.front .view-diary-highlight-home .views-field-body {
+	padding: .5rem;
+	font-size: .875rem;
+	line-height: 1.4;
+}
+
+body.front .view-diary-list-home {
+	margin: 1% 0;
+}
+
+body.front .view-diary-list-home li {
+	box-sizing: border-box;
+	float: left;
+	margin-right: 1.25%;
+	border: 1px solid #d8d8d8;
+	width: 32.5%;
+}
+
+body.front .view-diary-list-home li:last-of-type {
+	margin-right: 0;
+}
+
+body.front .view-diary-list-home li img {
+	width: 100% !important;
+	height: auto !important;
+}
+
+body.front .view-diary-list-home .story-view-title {
+	padding: .5rem;
+}
+
+body.front .view-diary-list-home .story-view-title a {
+	display: inline-block;
+	min-height: 3rem;
+	color: #1e1e1e;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+	line-height: 1.3;
+}
+
+body.front .view-diary-list-home .button {
+	float: right;
+	margin-top: 1.4rem;
+}
+
+body.front .view-theme-list-home {
+	margin: 0 auto;
+	padding: 1% 0;
+	max-width: 1120px;
+}
+
+body.front .view-theme-list-home li {
+	box-sizing: border-box;
+	float: left;
+	margin-right: 1.25%;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	width: 32.5%;
+}
+
+body.front .view-theme-list-home li:last-of-type {
+	margin-right: 0;
+}
+
+body.front .view-theme-list-home li img {
+	width: 100% !important;
+	height: auto !important;
+}
+
+body.front .view-theme-list-home .story-view-title {
+	padding: .5rem;
+}
+
+body.front .view-theme-list-home .story-view-title a {
+	display: inline-block;
+	min-height: 3rem;
+	color: #1e1e1e;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+	line-height: 1.3;
+}
+
+body.front .view-theme-list-home .button {
+	float: right;
+	margin-top: 1.4rem;
+}
+
+body.front .stories {
+	padding-top: 1.75rem;
+}
+
+body.front .view-story-highlight-home {
+	border: 1px solid #d8d8d8;
+}
+
+body.front .view-story-highlight-home .views-field-field-hero-image img {
+	float: right;
+    height: auto !important;
+    max-width: 70% !important;
+    padding: 0 0 0 1.4rem;
+}
+
+body.front .view-story-highlight-home .views-field-title {
+	padding: .5rem;
+}
+
+body.front  .view-story-highlight-home .views-field-title a {
+    color: #1e1e1e;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+	line-height: 1.3;
+}
+
+body.front .view-story-highlight-home .views-field-body {
+	padding: .5rem;
+	font-size: .875rem;
+	line-height: 1.4;
+}
+
+body.front .view-story-list-home {
+	margin: 1% 0;
+}
+
+body.front .view-story-list-home li {
+	box-sizing: border-box;
+	float: left;
+	margin-right: 1.25%;
+	border: 1px solid #d8d8d8;
+	width: 32.5%;
+}
+
+body.front .view-story-list-home li:last-of-type {
+	margin-right: 0;
+}
+
+body.front .view-story-list-home li img {
+	width: 100% !important;
+	height: auto !important;
+}
+
+body.front .view-story-list-home .story-view-title {
+	padding: .5rem;
+}
+
+body.front .view-story-list-home .story-view-title a {
+	display: inline-block;
+	min-height: 3rem;
+	color: #1e1e1e;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+	line-height: 1.3;
+}
+
+body.front .view-story-list-home .button {
+	float: right;
+	margin-top: 1.4rem;
 }
 
 body.node-type-page .field-name-body {

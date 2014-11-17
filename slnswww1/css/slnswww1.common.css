@@ -21,7 +21,7 @@
     transition: .3s ease all;
 }
 
-#page-wrapper #page-canvas > nav.main-menu {
+#page-wrapper #page-canvas nav.main-menu {
 	position: absolute;
     top: 0;
     left: -300px;
@@ -31,49 +31,49 @@
 	color: #fff;
 }
 
-#page-wrapper #page-canvas > nav.main-menu .account-links {
+#page-wrapper #page-canvas nav.main-menu .account-links {
 	padding: 4%;
 	color: #fff;
 	font-size: .75rem;
 }
 
-#page-wrapper #page-canvas > nav.main-menu .account-links a {
+#page-wrapper #page-canvas nav.main-menu .account-links a {
 	color: #fff;
 	text-decoration: none;
 }
 
-#page-wrapper #page-canvas > nav.main-menu form {
+#page-wrapper #page-canvas nav.main-menu form {
 	border-bottom: 1px solid #6d6d6d;
 	padding: 0 4% 6% 4%;
 }
 
-#page-wrapper #page-canvas > nav.main-menu input[type="text"] {
+#page-wrapper #page-canvas nav.main-menu input[type="text"] {
 	width: 70%;
 	font-style: italic;
 }
 
-#page-wrapper #page-canvas > nav.main-menu input[type="text"]::-webkit-input-placeholder {
+#page-wrapper #page-canvas nav.main-menu input[type="text"]::-webkit-input-placeholder {
 	font-style: italic;
 }
 
-#page-wrapper #page-canvas > nav.main-menu input[type="text"]:-moz-placeholder {
+#page-wrapper #page-canvas nav.main-menu input[type="text"]:-moz-placeholder {
 	font-style: italic;
 }
 
-#page-wrapper #page-canvas > nav.main-menu input[type="text"]::-moz-placeholder {
+#page-wrapper #page-canvas nav.main-menu input[type="text"]::-moz-placeholder {
 	font-style: italic;
 }
 
-#page-wrapper #page-canvas > nav.main-menu input[type="text"]:-ms-input-placeholder {  
+#page-wrapper #page-canvas nav.main-menu input[type="text"]:-ms-input-placeholder {  
 	font-style: italic;
 }
 
-#page-wrapper #page-canvas > nav.main-menu input[type="image"] {
+#page-wrapper #page-canvas nav.main-menu input[type="image"] {
 	margin-left: 4%;
 	vertical-align: middle;
 }
 
-#page-wrapper #page-canvas > nav.main-menu ul li {
+#page-wrapper #page-canvas nav.main-menu ul li {
 	border-bottom: 1px solid #6d6d6d;
 	margin: 0;
 	padding: 0;
@@ -84,7 +84,7 @@
 	font-weight: bold;
 }
 
-#page-wrapper #page-canvas > nav.main-menu ul li a {
+#page-wrapper #page-canvas nav.main-menu ul li a {
 	display: inline-block;
 	margin-left: 4%;
 	width: 80%;
@@ -92,18 +92,18 @@
 	text-decoration: none;
 }
 
-#page-wrapper #page-canvas > nav.main-menu ul li:hover {
+#page-wrapper #page-canvas nav.main-menu ul li:hover {
 	background-color: #00cc99;
 }
 
-#page-wrapper #page-canvas > nav.main-menu ul  li img {
+#page-wrapper #page-canvas nav.main-menu ul  li img {
 	margin: 0 5%;
 	width: 6%;
 	vertical-align: middle;
 	cursor: pointer;
 }
 
-#page-wrapper #page-canvas > nav.main-menu ul li ul {
+#page-wrapper #page-canvas nav.main-menu ul li ul {
 	overflow: hidden;
 	max-height: 0;
 	background-color: #5f5f5f;
@@ -111,15 +111,15 @@
     transition: .3s ease all;
 }
 
-#page-wrapper #page-canvas > nav.main-menu ul li ul.active {
+#page-wrapper #page-canvas nav.main-menu ul li ul.active {
 	max-height: 25rem;
 }
 
-#page-wrapper #page-canvas > nav.main-menu ul li ul li:last-of-type {
+#page-wrapper #page-canvas nav.main-menu ul li ul li:last-of-type {
 	border-bottom: none;
 }
 
-#page-wrapper #page-canvas > nav.main-menu ul li ul li a {
+#page-wrapper #page-canvas nav.main-menu ul li ul li a {
 	display: inline-block;
 	margin: 0;
 	padding: 0 4% 0 12%;
@@ -128,19 +128,19 @@
 	text-decoration: none;
 }
 
-#page-wrapper #page-canvas > nav.main-menu ul li ul li a:hover {
+#page-wrapper #page-canvas nav.main-menu ul li ul li a:hover {
 	background-color: #00cc99;
 }
 
-#page-wrapper #page-canvas > nav .social {
+#page-wrapper #page-canvas nav .social {
 	padding: 4%;
 }
 
-#page-wrapper #page-canvas > nav .social img {
+#page-wrapper #page-canvas nav .social img {
 	margin-right: .3rem;
 }
 
-#page-wrapper #page-canvas > header {
+#page-wrapper #page-canvas header {
 	height: 13.75rem;
 	background: url(../images/banner-park.jpg) left top no-repeat;
 	background-size: cover;
@@ -164,12 +164,12 @@
 	vertical-align: middle;
 }
 
-#page-wrapper #page-canvas > header .logo-slnsw {
+#page-wrapper #page-canvas header .logo-slnsw {
 	float: right;
 	width: 7.25rem;
 }
 
-#page-wrapper #page-canvas > header h1 {
+#page-wrapper #page-canvas header h1 {
 	float: left;
 	padding: 0 1rem;
 	font-family: Georgia,Times,Times New Roman,serif;
@@ -182,7 +182,7 @@
 	transition:.5s;
 }
 
-#page-wrapper #page-canvas > header h1 a {
+#page-wrapper #page-canvas header h1 a {
 	display: block;
 	height: 3.5rem;
 	line-height: 3.5rem;
@@ -195,11 +195,11 @@
 	transition:.5s;
 }
 
-#page-wrapper #page-canvas > header h1:hover {
+#page-wrapper #page-canvas header h1:hover {
 	background-color: #00cc99;
 }
 
-#page-wrapper #page-canvas > header h1:hover a {
+#page-wrapper #page-canvas header h1:hover a {
 	color: #fff;
 }
 
@@ -301,7 +301,7 @@
 	text-decoration: none;
 }
 
-#page-wrapper #page-canvas > footer {
+#page-wrapper #page-canvas footer {
 	padding: 1%;
 	width: 98%;
 	background-color: #e3e3e3;
@@ -309,24 +309,24 @@
 	font-size: .75rem;
 }
 
-#page-wrapper #page-canvas > footer .col1 {
+#page-wrapper #page-canvas footer .col1 {
 	float: left;
 	padding-top: 1rem;
 	width: 65%;
 	line-height: 1rem;
 }
 
-#page-wrapper #page-canvas > footer .col2 {
+#page-wrapper #page-canvas footer .col2 {
 	float: right;
 	width: 35%;
 	text-align: right;
 }
 
-#page-wrapper #page-canvas > footer .col2 img {
+#page-wrapper #page-canvas footer .col2 img {
 	margin-left: .5rem;
 }
 
-#page-wrapper #page-canvas > footer a {
+#page-wrapper #page-canvas footer a {
 	color: #313131;
 	text-decoration: none;
 }
@@ -357,7 +357,7 @@
 }
 
 @media all and (max-width: 40em) {
-	#page-wrapper #page-canvas > header {
+	#page-wrapper #page-canvas header {
 		height: 6.5rem;
 	}
 
@@ -369,11 +369,11 @@
 		text-align: center;
 	}
 	
-	#page-wrapper #page-canvas > header .logo-slnsw {
+	#page-wrapper #page-canvas header .logo-slnsw {
 		width: 5.5rem;
 	}
 	
-	#page-wrapper #page-canvas > header h1 {
+	#page-wrapper #page-canvas header h1 {
 		clear: left;
 		padding: 0 .5rem;
 		font-size: .875rem;
@@ -381,7 +381,7 @@
 		text-align: center;
 	}
 	
-	#page-wrapper #page-canvas > header h1 a {
+	#page-wrapper #page-canvas header h1 a {
 		height: 2.25rem;
 		line-height: 2.25rem;
 	}
@@ -447,21 +447,21 @@
 		margin-bottom: .5rem;
 	}
 	
-	#page-wrapper #page-canvas > footer {
+	#page-wrapper #page-canvas footer {
 		font-size: .625rem;
 	}
 	
-	#page-wrapper #page-canvas > footer .col1 {
+	#page-wrapper #page-canvas footer .col1 {
 		padding-top: 0;
 		width: 100%;
 	}
 	
-	#page-wrapper #page-canvas > footer .col2 {
+	#page-wrapper #page-canvas footer .col2 {
 		clear: left;
 		width: 100%;
 	}
 	
-	#page-wrapper #page-canvas > footer .col2 img {
+	#page-wrapper #page-canvas footer .col2 img {
 		width: 1.625rem;
 	}
 }
@@ -469,7 +469,7 @@
 
 /* Styles for markup used on some pages *******************************
 ***********************************************************************/
-#page-wrapper #page-canvas > header .account-links {
+#page-wrapper #page-canvas header .account-links {
 	float: right;
 	margin: .7rem 1rem;
 	padding: 0 .5rem;
@@ -480,14 +480,14 @@
 	line-height: 2rem;
 }
 
-#page-wrapper #page-canvas > header .account-links a {
+#page-wrapper #page-canvas header .account-links a {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	color: #1e1e1e;
 	font-size: .875rem;
 	text-decoration: none;
 }
 
-#page-wrapper #page-canvas > header .account-links img {
+#page-wrapper #page-canvas header .account-links img {
 	padding-right: .5rem;
 	vertical-align: middle;
 }
@@ -543,7 +543,7 @@
 }
 
 @media all and (max-width: 40em) {
-	#page-wrapper #page-canvas > header .account-links {
+	#page-wrapper #page-canvas header .account-links {
 		display: none;
 	}
 	
