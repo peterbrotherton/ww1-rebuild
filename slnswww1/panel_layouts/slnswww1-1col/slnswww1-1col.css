@@ -6,15 +6,46 @@
 	position: relative;
 }
 
+.panel-slnswww1-1col-title-strip {
+	background-color: #1e1e1e;
+}
+
+.panel-slnswww1-1col-title-strip h1 {
+	margin: 0 auto;
+	max-width: 1120px;
+	font-family: Georgia,Times,Times New Roman,serif;
+	font-size: 1.5rem;
+	font-style: italic;
+	color: #fff;
+	line-height: 3.625rem;
+}
+
 .panel-slnswww1-1col-main-wrapper {
-	margin: 14px auto 42px auto;
-	max-width: 1200px;
+	margin: 1.75rem auto;
+	max-width: 1120px;
 }
 
 .panel-slnswww1-1col-main {
+	width: 100%;
+	background-color: #fff;
+}
+
+.panel-slnswww1-1col-contact-strip {
+	clear: both;
 	padding: 1%;
 	width: 98%;
-	background-color: #fff;
+	background-color: #f9f9f9;
+}
+
+.panel-slnswww1-1col-contact-strip-col-1 {
+	float: left;
+	width: 48%;
+}
+
+.panel-slnswww1-1col-contact-strip-col-2 {
+	float: right;
+	width: 40%;
+	max-width: 28rem;
 }
 
 .panel-slnswww1-1col-footer {
@@ -24,13 +55,41 @@
 
 @media all and (max-width: 78em) {
 	.panel-slnswww1-1col-main-wrapper {
-		margin-top: 0;
+		margin: 0 auto;
+	}
+	
+	.panel-slnswww1-1col-title-strip h1 {
+		padding: 0 1%;
+		width: 98%;
+	}
+	
+	.panel-slnswww1-1col-main-wrapper {
+		padding: 0 1%;
+		width: 98%;
 	}
 }
 
 @media all and (max-width: 40em) {
-	.panel-slnswww1-1col-main {
+	.panel-slnswww1-1col-title-strip h1 {
+		font-size: .875rem;
+	}
+	
+	.panel-slnswww1-home-contact-strip {
+		padding: 0;
+		width: 100%;
+	}
+
+	.panel-slnswww1-home-contact-strip-col-1 {
+		float: none;
+		margin: 0 auto;
+		border-bottom: 1px solid #d8d8d8;
+		width: 94%;
+	}
+
+	.panel-slnswww1-home-contact-strip-col-2 {
+		float: none;
 		margin: 0 auto;
 		width: 94%;
+		max-width: 94%;
 	}
 }

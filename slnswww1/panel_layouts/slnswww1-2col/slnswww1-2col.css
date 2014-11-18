@@ -67,41 +67,32 @@
 
 @media all and (max-width: 78em) {
 	.panel-slnswww1-2col-title-strip h1 {
-		margin: 0 1%;
+		padding: 0 1%;
+		width: 98%;
 	}
 	
 	.panel-slnswww1-2col-main-wrapper {
-		margin-top: 0;
-	}
-	
-	.panel-slnswww1-2col-main {
-		width: 69%;
-		margin: 0 1%;
-	}
-	
-	.panel-slnswww1-2col-side {
-		margin-right: 1%;
+		margin: 0 auto;
+		padding: 0 1%;
+		width: 98%;
 	}
 }
 
 @media all and (max-width: 40em) {
 	.panel-slnswww1-2col-title-strip h1 {
-		margin: 0 auto;
-		width: 94%;
 		font-size: .875rem;
-		line-height: 2.75rem;
 	}
 	
 	.panel-slnswww1-2col-main {
 		float: none;
 		margin: 0 auto;
-		width: 94%;
+		width: 98%;
 	}
 	
 	.panel-slnswww1-2col-side {
 		float: none;
 		margin: 1.5rem auto;
-		width: 94%;
+		width: 98%;
 	}
 	
 	.panel-slnswww1-2col-contact-strip {

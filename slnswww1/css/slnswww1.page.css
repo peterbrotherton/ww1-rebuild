@@ -1,5 +1,18 @@
 /* Page specific styles
 ***********************************************************************/
+body.front .wysiwyg {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1rem;
+}
+
+body.front .wysiwyg  h2 {
+	margin-bottom: 1rem;
+	font-size: 2.5rem;
+	font-weight: normal;
+	font-family: Georgia,Times,Times New Roman,serif;
+	font-style: italic;
+}
+
 body.front #page-wrapper #page-canvas header {
 	position: fixed;
 	top: 0;
@@ -50,8 +63,12 @@ body.front .pane-theme-list-home {
 body.front #page-wrapper #page-canvas header .intro-blurb {
 	float: left;
 	clear: left;
-	margin: 2.875rem 0 0 1rem;
+	margin: 2.875rem 1% 0 1%;
 	width: 31%;
+}
+
+body.front #page-wrapper #page-canvas header #war-stories {
+	max-width: 22.25rem;
 }
 
 body.front #page-wrapper #page-canvas header .intro-blurb p {
@@ -85,7 +102,7 @@ body.front #page-wrapper #page-canvas header .intro-blurb a.view-collection:hove
 }
 
 body.front #page-wrapper #page-canvas header .video-controls {
-	margin: 1.6rem 0 0 1rem;
+	margin: 1.6rem 0 0 1%;
 	float: left;
 	clear: left;
 }
@@ -126,6 +143,12 @@ body.front .view-diary-highlight-home .views-field-field-asset-image img {
     height: auto !important;
     max-width: 70% !important;
     padding: 0 0 0 1.4rem;
+	opacity: 1;
+    transition: all 0.5s ease 0s;
+}
+
+body.front .view-diary-highlight-home .views-field-field-asset-image img:hover {
+	opacity: 0.5;
 }
 
 body.front .view-diary-highlight-home .views-field-title {
@@ -166,6 +189,12 @@ body.front .view-diary-list-home li:last-of-type {
 body.front .view-diary-list-home li img {
 	width: 100% !important;
 	height: auto !important;
+	opacity: 1;
+    transition: all 0.5s ease 0s;
+}
+
+body.front .view-diary-list-home li img:hover {
+	opacity: 0.5;
 }
 
 body.front .view-diary-list-home .story-view-title {
@@ -210,6 +239,12 @@ body.front .view-theme-list-home li:last-of-type {
 body.front .view-theme-list-home li img {
 	width: 100% !important;
 	height: auto !important;
+	opacity: 1;
+    transition: all 0.5s ease 0s;
+}
+
+body.front .view-theme-list-home li img:hover {
+	opacity: 0.5;
 }
 
 body.front .view-theme-list-home .story-view-title {
@@ -245,6 +280,12 @@ body.front .view-story-highlight-home .views-field-field-hero-image img {
     height: auto !important;
     max-width: 70% !important;
     padding: 0 0 0 1.4rem;
+	opacity: 1;
+    transition: all 0.5s ease 0s;
+}
+
+body.front .view-story-highlight-home .views-field-field-hero-image img:hover {
+	opacity: 0.5;
 }
 
 body.front .view-story-highlight-home .views-field-title {
@@ -285,6 +326,12 @@ body.front .view-story-list-home li:last-of-type {
 body.front .view-story-list-home li img {
 	width: 100% !important;
 	height: auto !important;
+	opacity: 1;
+    transition: all 0.5s ease 0s;
+}
+
+body.front .view-story-list-home li img:hover {
+	opacity: 0.5;
 }
 
 body.front .view-story-list-home .story-view-title {
@@ -322,4 +369,296 @@ body.node-type-page .field-name-body  h3 {
 body.node-type-page .field-name-body a {
 	color: #0059be;
 	font-weight: bold;
+}
+
+body.page-explore .view-asset-list .view-filters {
+	float: left;
+	width: 23%;
+}
+
+body.page-explore .view-asset-list .view-filters .views-widget-filter-title {
+	display: inline-block;
+	width: 80%;
+}
+
+body.page-explore .view-asset-list .view-filters .views-widget-filter-title input[type="text"] {
+	width: 100%;
+}
+
+body.page-explore .view-asset-list .view-filters .views-submit-button {
+	display: inline-block;
+	width: 10%;
+}
+
+body.page-explore .view-asset-list .view-filters input.form-submit {
+    background: url("../images/icon-magnify-dark.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    background-size: cover;
+	margin: 0;
+    padding: 0;
+    text-indent: -999rem;
+    max-width: 1.125rem;
+	width: 100%;
+}
+
+body.page-explore .view-asset-list {
+	position: relative;
+}
+
+body.page-explore .view-asset-list .attachment {
+	position: absolute;
+	top: 5rem;
+	width: 23%;
+}
+
+body.page-explore .asset-list-filter-theme, body.page-explore .asset-list-filter-diarist  {
+	margin-top: 1rem;
+}
+
+body.page-explore .view-asset-list .attachment .ctools-jump-menu-button  {
+	display: none;
+}
+
+body.page-explore .view-asset-list .attachment .view-content {
+	float: none;
+	width: 100%;
+}
+
+body.page-explore .view-asset-list .attachment select {
+	width: 100%;
+}
+
+body.page-explore .view-asset-list .view-content {
+	float: right;
+	width: 75%;
+}
+
+body.page-explore .view-asset-list .view-footer {
+	float: right;
+	width: 75%;
+}
+
+body.page-explore .view-asset-list .view-content li {
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    float: left;
+    margin: 1% 1.25% 1% 0;
+    width: 32.5%;
+}
+
+body.page-explore  .view-asset-list .view-content li:nth-child(3n + 1) {
+	clear: left;
+}
+
+body.page-explore  .view-asset-list .view-content li:nth-child(3n) {
+	margin-right: 0;
+}
+
+body.page-explore  .view-asset-list .view-content li img {
+	width: 100% !important;
+	height: auto !important;
+	opacity: 1;
+    transition: all 0.5s ease 0s;
+}
+
+body.page-explore .view-asset-list .view-content li img:hover {
+	opacity: 0.5;
+}
+
+body.page-explore .view-asset-list .event-view-title {
+	padding: .5rem;
+}
+
+body.page-explore .view-asset-list .event-view-title a {
+	display: inline-block;
+	min-height: 3rem;
+	color: #1e1e1e;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+	line-height: 1.3;
+}
+
+body.page-explore div#views_infinite_scroll-ajax-loader {
+	clear: both;
+	padding: 1rem 0;
+}
+
+@media all and (max-width: 78em) {
+	body.front .wysiwyg {
+		font-size: .75rem;
+	}
+	
+	body.front .wysiwyg  h2 {
+		font-size: 1.125rem;
+	}
+
+	body.front #page-wrapper #page-canvas header .intro-blurb {
+		width: 70%;
+	}
+	
+	body.front  .view-diary-highlight-home .views-field-title a {
+		font-size: .875rem;
+	}
+
+	body.front .view-diary-highlight-home .views-field-body {
+		font-size: .75rem;
+	}
+	
+	body.front .view-diary-list-home .story-view-title a {
+		font-size: .875rem;
+	}
+	
+	body.front .view-theme-list-home {
+		margin: 0 1%;
+		padding: 1% 0;
+		width: 98%;
+	}
+	
+	body.front .view-theme-list-home .story-view-title a {
+		font-size: .875rem;
+	}
+	
+	body.front  .view-story-highlight-home .views-field-title a {
+		font-size: .875rem;
+	}
+
+	body.front .view-story-highlight-home .views-field-body {
+		font-size: .75rem;
+	}
+	
+	body.front .view-story-list-home .story-view-title a {
+		font-size: .875rem;
+	}
+	
+	body.page-explore .view-asset-list .view-content li {
+		border: 1px solid #d8d8d8;
+		box-sizing: border-box;
+		float: left;
+		margin: 1% 2% 1% 0;
+		width: 49%;
+	}
+
+	body.page-explore  .view-asset-list .view-content li:nth-child(3n + 1) {
+		clear: none;
+	}
+
+	body.page-explore  .view-asset-list .view-content li:nth-child(3n) {
+		margin-right: 1%;
+	}
+
+	body.page-explore  .view-asset-list .view-content li:nth-child(2n + 1) {
+		clear: left;
+	}
+
+	body.page-explore  .view-asset-list .view-content li:nth-child(2n) {
+		margin-right: 0;
+	}
+	
+	body.page-explore .view-asset-list .event-view-title a {
+		font-size: .75rem;
+	}
+}
+
+@media all and (max-width: 68em) {
+	body.front #page-wrapper #page-canvas header {
+		position: static;
+		height: auto;
+		background: url(../video/short-projections-web.jpg) left top no-repeat;
+		background-size: cover;
+	}
+
+	body.front #page-wrapper #page-canvas #feature-video-wrapper {
+		display: none;
+	}
+	
+	
+	body.front #page-wrapper #page-canvas header .video-controls {
+		display: none;
+	}
+
+	body.front #page-wrapper #page-canvas header .intro-blurb {
+		float: none;
+		clear: both;
+		margin: 0 1% 0 1%;
+		padding-bottom: 2%;
+		width: 98%;
+	}
+	
+	body.front #page-wrapper #page-canvas header #war-stories {
+		display: block;
+		float: none;
+		margin: 0 auto;
+		width: 50%;
+	}
+}
+
+@media all and (max-width: 40em) {
+	body.front #page-wrapper #page-canvas header .intro-blurb p {
+		font-size: .875rem;
+	}
+	
+	body.front #page-wrapper #page-canvas header .intro-blurb a.view-collection {
+		font-size: .875rem;
+	}
+	
+	body.front  .view-diary-highlight-home {
+		display: none;
+	}
+	
+	body.front .view-diary-list-home li {
+		box-sizing: border-box;
+		float: none;
+		margin: 1%;
+		border: 1px solid #d8d8d8;
+		width: 98%;
+	}
+	
+	body.front .view-diary-list-home .story-view-title a {
+		font-size: .75rem;
+	}
+	
+	body.front .view-theme-list-home li {
+		box-sizing: border-box;
+		float: none;
+		margin: 1%;
+		border: 1px solid #d8d8d8;
+		width: 98%;
+	}
+	
+	body.front .view-theme-list-home .story-view-title a {
+		font-size: .75rem;
+	}
+	
+	body.front  .view-story-highlight-home {
+		display: none;
+	}
+	
+	body.front .view-story-list-home li {
+		box-sizing: border-box;
+		float: none;
+		margin: 1%;
+		border: 1px solid #d8d8d8;
+		width: 98%;
+	}
+	
+	body.front .view-story-list-home .story-view-title a {
+		font-size: .75rem;
+	}
+	
+	body.page-explore .view-asset-list .view-filters {
+		float: none;
+		width: 100%;
+	}
+
+	body.page-explore .view-asset-list .attachment {
+		position: static;
+		margin: 1rem 0;
+		width: 100%;
+	}
+
+	body.page-explore .view-asset-list .view-content {
+		float: none;
+		width: 100%;
+	}
 }
