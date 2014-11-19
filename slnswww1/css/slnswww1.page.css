@@ -484,6 +484,62 @@ body.page-explore div#views_infinite_scroll-ajax-loader {
 	padding: 1rem 0;
 }
 
+body.page-for-schools .pane-page-content .view-header h2 {
+	margin-top: 1rem;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-size: 1.5rem;
+}
+
+body.page-for-schools .pane-page-content .view-content {
+	margin-top: 1rem;
+}
+
+body.page-for-schools .pane-page-content .view-content li {
+	border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    float: left;
+    margin: 0 1.25% 1% 0;
+    width: 32.5%;
+}
+
+body.page-for-schools .pane-page-content .view-content li:nth-child(3n + 1) {
+	clear: left;
+}
+
+body.page-for-schools .pane-page-content .view-content li:nth-child(3n) {
+	margin-right: 0;
+}
+
+body.page-for-schools .pane-page-content .view-content li img {
+	width: 100% !important;
+	height: auto !important;
+	opacity: 1;
+    transition: all 0.5s ease 0s;
+}
+
+body.page-for-schools .pane-page-content .view-content li img:hover {
+	opacity: 0.5;
+}
+
+body.page-for-schools .pane-page-content .view-content .learning-view-title {
+	padding: .5rem;
+}
+
+body.page-for-schools .pane-page-content .view-content .learning-view-title a {
+	display: inline-block;
+	color: #1e1e1e;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    font-size: .8125rem;
+    font-weight: bold;
+    text-decoration: none;
+	line-height: 1.3;
+}
+
+body.page-for-schools .pane-page-content .view-content .views-field-field-summary {
+	padding:  0 .5rem .5rem .5rem;
+	font-size: .75rem;
+}
+
 @media all and (max-width: 78em) {
 	body.front .wysiwyg {
 		font-size: .75rem;
@@ -556,6 +612,38 @@ body.page-explore div#views_infinite_scroll-ajax-loader {
 	}
 	
 	body.page-explore .view-asset-list .event-view-title a {
+		font-size: .75rem;
+	}
+	
+	body.page-for-schools .pane-page-content .view-header h2 {
+		font-size: 1.25rem;
+	}
+	
+	body.page-for-schools .pane-page-content .view-content li {
+		border: 1px solid #d8d8d8;
+		box-sizing: border-box;
+		float: left;
+		margin: 1% 2% 1% 0;
+		width: 49%;
+	}
+
+	body.page-for-schools  .pane-page-content.view-content  li:nth-child(3n + 1) {
+		clear: none;
+	}
+
+	body.page-for-schools .pane-page-content .view-content li:nth-child(3n) {
+		margin-right: 1%;
+	}
+
+	body.page-for-schools .pane-page-content .view-content li:nth-child(2n + 1) {
+		clear: left;
+	}
+
+	body.page-for-schools .pane-page-content .view-content li:nth-child(2n) {
+		margin-right: 0;
+	}
+	
+	body.page-for-schools .pane-page-content .view-content .learning-view-title a {
 		font-size: .75rem;
 	}
 }
