@@ -89,8 +89,45 @@
 			});
 		}
 		
+		function initPageTimeline() {
+			if (!$('body.page-explore-timeline-new').length) { return; }
+			
+			$('#timeline-nav a').click(function(event){
+				var startDate = $(this).parent().data('date');
+				var endDate = $(this).parent().next().data('date');
+				$('#edit-field-date-references-value-1-value-date').val(startDate);
+				$('#edit-field-date-references-value-2-value-date').val(endDate);
+				
+				$.ajax({
+					url: '/views/ajax',
+					type: 'post',
+					data: {
+						view_name: 'asset_list_timeline',
+						view_display_id: 'panel_pane_1',
+						'field_date_references_value_1[value][date]': startDate,
+						'field_date_references_value_2[value][date]': endDate
+					},
+					dataType: 'json',
+					success: function (response) {
+						if (response[1] !== undefined) {
+							var viewHtml = $(response[1].data);
+							var itemList = viewHtml.find('.view-content .item-list');
+							$('.view-asset-list-timeline .view-content .item-list').fadeOut("slow", function() {
+								$('.view-asset-list-timeline .view-content').html(itemList);
+							});
+							
+							//$('.view-asset-list-timeline .view-content').animate({ "top": "-=500px" }, "slow" );
+						}
+					}
+				});
+				
+				event.preventDefault();
+			});
+		}
+		
 		initCommon();
 		initHomePage();
 		initPageExplore();
+		initPageTimeline();
 	});
 })(jQuery);

@@ -174,44 +174,6 @@ body.front .view-diary-list-home {
 	margin: 1% 0;
 }
 
-body.front .view-diary-list-home li {
-	box-sizing: border-box;
-	float: left;
-	margin-right: 1.25%;
-	border: 1px solid #d8d8d8;
-	width: 32.5%;
-}
-
-body.front .view-diary-list-home li:last-of-type {
-	margin-right: 0;
-}
-
-body.front .view-diary-list-home li img {
-	width: 100% !important;
-	height: auto !important;
-	opacity: 1;
-    transition: all 0.5s ease 0s;
-}
-
-body.front .view-diary-list-home li img:hover {
-	opacity: 0.5;
-}
-
-body.front .view-diary-list-home .story-view-title {
-	padding: .5rem;
-}
-
-body.front .view-diary-list-home .story-view-title a {
-	display: inline-block;
-	min-height: 3rem;
-	color: #1e1e1e;
-    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    text-decoration: none;
-	line-height: 1.3;
-}
-
 body.front .view-diary-list-home .button {
 	float: right;
 	margin-top: 1.4rem;
@@ -224,42 +186,7 @@ body.front .view-theme-list-home {
 }
 
 body.front .view-theme-list-home li {
-	box-sizing: border-box;
-	float: left;
-	margin-right: 1.25%;
-	border: 1px solid #ffffff;
-	background-color: #ffffff;
-	width: 32.5%;
-}
-
-body.front .view-theme-list-home li:last-of-type {
-	margin-right: 0;
-}
-
-body.front .view-theme-list-home li img {
-	width: 100% !important;
-	height: auto !important;
-	opacity: 1;
-    transition: all 0.5s ease 0s;
-}
-
-body.front .view-theme-list-home li img:hover {
-	opacity: 0.5;
-}
-
-body.front .view-theme-list-home .story-view-title {
-	padding: .5rem;
-}
-
-body.front .view-theme-list-home .story-view-title a {
-	display: inline-block;
-	min-height: 3rem;
-	color: #1e1e1e;
-    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    text-decoration: none;
-	line-height: 1.3;
+	background-color: #fff;
 }
 
 body.front .view-theme-list-home .button {
@@ -311,47 +238,10 @@ body.front .view-story-list-home {
 	margin: 1% 0;
 }
 
-body.front .view-story-list-home li {
-	box-sizing: border-box;
-	float: left;
-	margin-right: 1.25%;
-	border: 1px solid #d8d8d8;
-	width: 32.5%;
-}
-
-body.front .view-story-list-home li:last-of-type {
-	margin-right: 0;
-}
-
-body.front .view-story-list-home li img {
-	width: 100% !important;
-	height: auto !important;
-	opacity: 1;
-    transition: all 0.5s ease 0s;
-}
-
-body.front .view-story-list-home li img:hover {
-	opacity: 0.5;
-}
-
-body.front .view-story-list-home .story-view-title {
-	padding: .5rem;
-}
-
-body.front .view-story-list-home .story-view-title a {
-	display: inline-block;
-	min-height: 3rem;
-	color: #1e1e1e;
-    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    text-decoration: none;
-	line-height: 1.3;
-}
-
 body.front .view-story-list-home .button {
 	float: right;
 	margin-top: 1.4rem;
+	width: auto;
 }
 
 body.node-type-page .field-name-body {
@@ -437,53 +327,6 @@ body.page-explore .view-asset-list .view-footer {
 	width: 75%;
 }
 
-body.page-explore .view-asset-list .view-content li {
-    border: 1px solid #d8d8d8;
-    box-sizing: border-box;
-    float: left;
-    margin: 1% 1.25% 1% 0;
-    width: 32.5%;
-}
-
-body.page-explore  .view-asset-list .view-content li:nth-child(3n + 1) {
-	clear: left;
-}
-
-body.page-explore  .view-asset-list .view-content li:nth-child(3n) {
-	margin-right: 0;
-}
-
-body.page-explore  .view-asset-list .view-content li img {
-	width: 100% !important;
-	height: auto !important;
-	opacity: 1;
-    transition: all 0.5s ease 0s;
-}
-
-body.page-explore .view-asset-list .view-content li img:hover {
-	opacity: 0.5;
-}
-
-body.page-explore .view-asset-list .event-view-title {
-	padding: .5rem;
-}
-
-body.page-explore .view-asset-list .event-view-title a {
-	display: inline-block;
-	min-height: 3rem;
-	color: #1e1e1e;
-    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    text-decoration: none;
-	line-height: 1.3;
-}
-
-body.page-explore div#views_infinite_scroll-ajax-loader {
-	clear: both;
-	padding: 1rem 0;
-}
-
 body.page-for-schools .pane-page-content .view-header h2 {
 	margin-top: 1rem;
 	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
@@ -494,45 +337,8 @@ body.page-for-schools .pane-page-content .view-content {
 	margin-top: 1rem;
 }
 
-body.page-for-schools .pane-page-content .view-content li {
-	border: 1px solid #d8d8d8;
-    box-sizing: border-box;
-    float: left;
-    margin: 0 1.25% 1% 0;
-    width: 32.5%;
-}
-
-body.page-for-schools .pane-page-content .view-content li:nth-child(3n + 1) {
-	clear: left;
-}
-
-body.page-for-schools .pane-page-content .view-content li:nth-child(3n) {
-	margin-right: 0;
-}
-
-body.page-for-schools .pane-page-content .view-content li img {
-	width: 100% !important;
-	height: auto !important;
-	opacity: 1;
-    transition: all 0.5s ease 0s;
-}
-
-body.page-for-schools .pane-page-content .view-content li img:hover {
-	opacity: 0.5;
-}
-
-body.page-for-schools .pane-page-content .view-content .learning-view-title {
-	padding: .5rem;
-}
-
 body.page-for-schools .pane-page-content .view-content .learning-view-title a {
-	display: inline-block;
-	color: #1e1e1e;
-    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
-    font-size: .8125rem;
-    font-weight: bold;
-    text-decoration: none;
-	line-height: 1.3;
+	font-size: .8125rem;
 }
 
 body.page-for-schools .pane-page-content .view-content .views-field-field-summary {
@@ -540,9 +346,120 @@ body.page-for-schools .pane-page-content .view-content .views-field-field-summar
 	font-size: .75rem;
 }
 
+body.page-search .pane-page-content h2 {
+	margin-bottom: 1rem;
+	font-size: 1.125rem;
+	font-weight: bold;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+body.page-search .pane-page-content   h3 {
+	margin-bottom: .5rem;
+	font-size: .875rem;
+	font-weight: bold;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+body.page-search .pane-page-content  p {
+	padding-bottom: 1rem;
+}
+
+body.page-search .pane-page-content a {
+	color: #0059be;
+}
+
+body.page-search .pane-page-content input[type="text"] {
+    background: none repeat scroll 0 0 #e9e6ed;
+    color: #1e1e1e;
+}
+
+body.page-search .pane-page-content input[type="submit"] {
+	display: inline-block;
+	padding: 0 1rem;
+	height: 2.625rem;
+	line-height: 2.625rem;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: .875rem;
+	color: #fff;
+	background-color: #0059be;
+	text-decoration: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+body.page-search .pane-page-content input[type="submit"]:hover {
+	background-color: #00cc99;
+}
+
+body.page-user .form-item {
+	margin-bottom: 1rem;
+}
+
+body.page-user .pane-page-content input[type="text"] {
+    background: none repeat scroll 0 0 #e9e6ed;
+    color: #1e1e1e;
+}
+
+body.page-user .pane-page-content input[type="submit"] {
+	display: inline-block;
+	padding: 0 1rem;
+	height: 2.625rem;
+	line-height: 2.625rem;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: .875rem;
+	color: #fff;
+	background-color: #0059be;
+	text-decoration: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+body.page-user .pane-page-content input[type="submit"]:hover {
+	background-color: #00cc99;
+}
+
+body.page-user .pane-page-content label {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: .875rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1.4;
+}
+
+body.page-user .pane-page-content .description {
+	font-style: italic;
+	line-height: 1.4;
+}
+
+body.page-node .pane-page-content .view-header h2 {
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+body.page-explore-timeline-new .view-asset-list-timeline {
+	float: left;
+	margin-right: 2%;
+	width: 70%;
+	overflow: hidden;
+}
+
+body.page-explore-timeline-new #timeline-nav {
+	float: right;
+	width: 28%;
+}
+
+body.page-explore-timeline-new .view-asset-list-timeline .view-content {
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
 @media all and (max-width: 78em) {
 	body.front .wysiwyg {
-		font-size: .75rem;
+		font-size: .875rem;
 	}
 	
 	body.front .wysiwyg  h2 {
@@ -561,18 +478,10 @@ body.page-for-schools .pane-page-content .view-content .views-field-field-summar
 		font-size: .75rem;
 	}
 	
-	body.front .view-diary-list-home .story-view-title a {
-		font-size: .875rem;
-	}
-	
 	body.front .view-theme-list-home {
 		margin: 0 1%;
 		padding: 1% 0;
 		width: 98%;
-	}
-	
-	body.front .view-theme-list-home .story-view-title a {
-		font-size: .875rem;
 	}
 	
 	body.front  .view-story-highlight-home .views-field-title a {
@@ -583,68 +492,30 @@ body.page-for-schools .pane-page-content .view-content .views-field-field-summar
 		font-size: .75rem;
 	}
 	
-	body.front .view-story-list-home .story-view-title a {
-		font-size: .875rem;
+	body.front .box-list .item-list li {
+		margin: 0 1.25% 1% 0;
+		border: 1px solid #d8d8d8;
+		width: 32.5%;
 	}
 	
-	body.page-explore .view-asset-list .view-content li {
-		border: 1px solid #d8d8d8;
-		box-sizing: border-box;
-		float: left;
-		margin: 1% 2% 1% 0;
-		width: 49%;
-	}
-
-	body.page-explore  .view-asset-list .view-content li:nth-child(3n + 1) {
+	body.front .box-list .item-list  li:nth-child(2n + 1) {
 		clear: none;
 	}
 
-	body.page-explore  .view-asset-list .view-content li:nth-child(3n) {
-		margin-right: 1%;
-	}
-
-	body.page-explore  .view-asset-list .view-content li:nth-child(2n + 1) {
-		clear: left;
-	}
-
-	body.page-explore  .view-asset-list .view-content li:nth-child(2n) {
-		margin-right: 0;
+	body.front .box-list .item-list  li:nth-child(2n) {
+		margin-right: 1.25%;
 	}
 	
-	body.page-explore .view-asset-list .event-view-title a {
-		font-size: .75rem;
+	body.front .box-list .item-list  li:nth-child(3n + 1) {
+		clear: left;
+	}
+	
+	body.front .box-list .item-list  li:nth-child(3n) {
+		margin-right: 0;
 	}
 	
 	body.page-for-schools .pane-page-content .view-header h2 {
-		font-size: 1.25rem;
-	}
-	
-	body.page-for-schools .pane-page-content .view-content li {
-		border: 1px solid #d8d8d8;
-		box-sizing: border-box;
-		float: left;
-		margin: 1% 2% 1% 0;
-		width: 49%;
-	}
-
-	body.page-for-schools  .pane-page-content.view-content  li:nth-child(3n + 1) {
-		clear: none;
-	}
-
-	body.page-for-schools .pane-page-content .view-content li:nth-child(3n) {
-		margin-right: 1%;
-	}
-
-	body.page-for-schools .pane-page-content .view-content li:nth-child(2n + 1) {
-		clear: left;
-	}
-
-	body.page-for-schools .pane-page-content .view-content li:nth-child(2n) {
-		margin-right: 0;
-	}
-	
-	body.page-for-schools .pane-page-content .view-content .learning-view-title a {
-		font-size: .75rem;
+		font-size: 1rem;
 	}
 }
 
@@ -694,44 +565,14 @@ body.page-for-schools .pane-page-content .view-content .views-field-field-summar
 		display: none;
 	}
 	
-	body.front .view-diary-list-home li {
-		box-sizing: border-box;
-		float: none;
-		margin: 1%;
-		border: 1px solid #d8d8d8;
-		width: 98%;
-	}
-	
-	body.front .view-diary-list-home .story-view-title a {
-		font-size: .75rem;
-	}
-	
-	body.front .view-theme-list-home li {
-		box-sizing: border-box;
-		float: none;
-		margin: 1%;
-		border: 1px solid #d8d8d8;
-		width: 98%;
-	}
-	
-	body.front .view-theme-list-home .story-view-title a {
-		font-size: .75rem;
-	}
-	
 	body.front  .view-story-highlight-home {
 		display: none;
 	}
 	
-	body.front .view-story-list-home li {
-		box-sizing: border-box;
+	body.front .box-list .item-list li {
 		float: none;
 		margin: 1%;
-		border: 1px solid #d8d8d8;
 		width: 98%;
-	}
-	
-	body.front .view-story-list-home .story-view-title a {
-		font-size: .75rem;
 	}
 	
 	body.page-explore .view-asset-list .view-filters {

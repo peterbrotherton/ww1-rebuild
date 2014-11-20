@@ -538,6 +538,52 @@
 	background-size: auto 100%;
 }
 
+div#views_infinite_scroll-ajax-loader {
+	clear: both;
+	padding: 1rem 0;
+}
+
+aside .view-tweets {
+    clear: left;
+}
+
+aside .view-tweets h3 {
+	margin-top: 0 !important;
+	border: 1px solid #d8d8d8;
+	background: url(../images/icon-twitter.png) no-repeat scroll 1rem center #e3e3e3;
+	height: 3rem;
+	line-height: 3rem;
+	text-indent: 3rem;
+	color: #717171;
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+aside .view-tweets h3 a {
+	text-decoration: none;
+	color: #717171;
+}
+
+aside .view-tweets .views-table {
+	margin-top: 0 !important;
+	background-color: #ffffff;
+	font-size: .75rem;
+}
+
+aside .view-tweets .views-table tr {
+	border: 1px solid #d8d8d8;
+	background-color: #fff !important;
+}
+
+aside .view-tweets .views-table td {
+	padding: .5rem;
+	vertical-align: middle;
+}
+
+aside .view-tweets .views-table a {
+	color: #0059be;
+}
+
 @media all and (max-width: 78em) {
 	
 }
