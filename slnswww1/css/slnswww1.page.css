@@ -439,23 +439,102 @@ body.page-node .pane-page-content .view-header h2 {
 	line-height: 2rem;
 }
 
-body.page-explore-timeline-new .view-asset-list-timeline {
+body.page-explore-timeline .view-asset-list-timeline {
 	float: left;
 	margin-right: 2%;
 	width: 70%;
 	overflow: hidden;
 }
 
-body.page-explore-timeline-new #timeline-nav {
+body.page-explore-timeline #timeline-nav {
 	float: right;
 	width: 28%;
 }
 
-body.page-explore-timeline-new .view-asset-list-timeline .view-content {
+body.page-explore-timeline .view-asset-list-timeline .view-content {
 	position: relative;
 	left: 0;
 	top: 0;
 }
+
+body.page-explore-timeline .views-exposed-form {
+	display: none;
+}
+
+body.page-explore-timeline .view-asset-list-timeline h2.year {
+	margin-bottom: 2rem;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-size: 1.875rem;
+	font-weight: bold;
+}
+
+body.page-explore-timeline .view-asset-list-timeline .views-row {
+	margin-bottom: 1rem;
+	font-size: .875rem;
+}
+
+body.page-explore-timeline .view-asset-list-timeline .views-row  .views-field-field-date-references {
+	float: left;
+	width: 25%;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-size: 1.125rem;
+	font-weight: bold;
+	line-height: 2rem;
+}
+
+body.page-explore-timeline .view-asset-list-timeline .views-row  .views-field-title {
+	margin-left: 25%;
+	width: 75%;
+	line-height: 1.4rem;
+}
+
+body.page-explore-timeline .view-asset-list-timeline .views-row  .views-field-body {
+	margin-left: 25%;
+	width: 75%;
+	line-height: 1.4rem;
+}
+
+body.page-explore-timeline .view-asset-list-timeline .views-row  .views-field-field-asset-image {
+	margin-left: 25%;
+	width: 75%;
+}
+
+body.page-explore-timeline .view-asset-list-timeline .views-row  .views-field-field-asset-image img {
+	max-width: 100% !important;
+	height: auto !important;
+	opacity: 1;
+    transition: all 0.5s ease 0s;
+}
+
+body.page-explore-timeline .view-asset-list-timeline .views-row  .views-field-field-asset-image img:hover {
+	opacity: 0.5;
+}
+
+body.page-explore-timeline #timeline-nav  li a{
+	display: block;
+	margin-bottom: 3px;
+	border-left: .625rem solid #1e1e1e;
+	padding-left: .625rem;
+	height: 1.125rem;
+	line-height: 1.125rem;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-size: .875rem;
+	font-weight: bold;
+	color: #1e1e1e;
+	text-decoration: none;
+}
+
+body.page-explore-timeline #timeline-nav  li a.active {
+	color: #00cc99;
+	border-left: .625rem solid #00cc99;
+}
+
+body.page-explore-timeline #timeline-nav  > li > a {
+	height: 2.5rem;
+	line-height: 2.5rem;
+	font-size: 1.5rem;
+}
+
 
 @media all and (max-width: 78em) {
 	body.front .wysiwyg {
